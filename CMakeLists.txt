@@ -3,4 +3,4 @@ project(web)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(web main.cpp)
+add_executable(web webserver.cpp add.cpp csapp.h csapp.cpp)
